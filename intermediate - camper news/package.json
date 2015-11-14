@@ -1,0 +1,13 @@
+{
+  "name": "source",
+  "version": "0.0.0",
+  "devDependencies": {
+    "browser-sync": "^2.7.6",
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-order": "^1.1.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.0.1",
+    "gulp-watch": "^4.2.4"
+  }
+}

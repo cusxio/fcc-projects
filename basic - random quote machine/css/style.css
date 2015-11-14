@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+body {
+  font-size: 62.5%;
+  font-family: Roboto;
+  background-color: #FF3E41; }
+
+.wrapper {
+  background-color: #FF3E41;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center; }
+
+nav {
+  position: relative;
+  -webkit-box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21); }
+  nav h1 {
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    margin: 0;
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 2em;
+    color: #fff; }
+    nav h1 a {
+      text-decoration: underline;
+      color: white;
+      font-weight: 700; }
+      nav h1 a:hover {
+        color: #4C3549; }
+
+header h1 {
+  margin-top: 1.5em;
+  color: #fff;
+  text-align: center;
+  font-size: 5em;
+  opacity: 1; }
+
+#quotebox {
+  border-radius: 50px;
+  margin: 12em auto 2em auto;
+  width: 80%;
+  padding: 30px;
+  background-color: white;
+  border-radius: 3px;
+  background-color: #4C3549;
+  box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.22), 0 40px 77px 0 rgba(0, 0, 0, 0.22); }
+
+.quote h1 {
+  font-family: Roboto;
+  font-style: italic;
+  color: #fff;
+  text-align: center;
+  font-weight: 100;
+  font-size: 5em;
+  margin-bottom: 0em;
+  opacity: 0.5; }
+
+.author p {
+  font-family: Roboto;
+  font-style: normal;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2em;
+  margin-top: 2em; }
+
+#button {
+  text-align: center;
+  margin: 3em auto 0 auto;
+  font-size: 1.5em;
+  font-weight: 700;
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 3em;
+  line-height: 1em;
+  outline: 0;
+  padding: 0 1em;
+  text-transform: uppercase;
+  background-color: #4C3549;
+  color: #FFFFFF; }
+  #button:hover {
+    transition: box-shadow 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.1s;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    background-color: #5b3f57; }
+
+.material-icons, .fa {
+  vertical-align: middle;
+  margin-left: 0.5em;
+  margin-top: -0.1em; }
+
+.fa {
+  font-size: 1.3em; }

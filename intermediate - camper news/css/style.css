@@ -1,0 +1,109 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
+.material-icons {
+  vertical-align: middle;
+  padding-right: 0.2em;
+  padding-bottom: 0.2em; }
+
+body {
+  font-size: 62.5%;
+  font-family: "Open Sans"; }
+
+.logo {
+  text-align: center; }
+  .logo header {
+    text-align: left;
+    font-size: 12em;
+    font-weight: 700;
+    color: #fff;
+    padding-left: 0.2em; }
+  .logo p {
+    text-align: right;
+    padding-right: 2em;
+    font-size: 2em;
+    color: #fff; }
+    .logo p a {
+      color: #fff;
+      font-weight: 700; }
+
+.page {
+  background: radial-gradient(#168dd9, black); }
+
+.logo {
+  background-color: #000000; }
+
+.news .article {
+  height: 20em;
+  width: 100%;
+  border-top: 1em solid black;
+  border-bottom: 1em solid black;
+  box-shadow: inset 0px 0px 0 2000px rgba(0, 0, 0, 0.8); }
+
+.news:first-child {
+  border-top: 1em solid black; }
+
+.news:last-child {
+  border-bottom: 1em solid black; }
+
+.one, .two, .three, .four, .five {
+  background-size: 100% auto; }
+
+.article {
+  color: white;
+  position: relative;
+  vertical-align: middle; }
+  .article h1 {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    font-size: 3em;
+    margin-top: 4.5%;
+    margin-bottom: 0em;
+    padding-bottom: 0; }
+    .article h1 a {
+      text-decoration: none;
+      color: white; }
+      .article h1 a:visited {
+        color: white; }
+  .article p {
+    font-weight: 200;
+    width: 600px;
+    padding-top: 0;
+    margin-top: 0;
+    margin: auto;
+    font-size: 2em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+
+#author {
+  position: absolute;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: #168dd9;
+  font-weight: 800;
+  top: -20px;
+  left: 0;
+  text-transform: uppercase;
+  font-size: 0.5em; }
+
+.info {
+  width: 100%;
+  position: absolute;
+  bottom: 10px; }
+
+.comment {
+  float: left;
+  font-size: 1.2em;
+  padding-left: 3em; }
+  .comment a {
+    text-decoration: none;
+    color: white; }
+    .comment a:visited {
+      color: white;
+      font-weight: 700; }
+
+.like {
+  float: right;
+  font-size: 1.2em;
+  padding-right: 3em; }
