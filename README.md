@@ -14,6 +14,7 @@ Projects
 Basic
 -----------------
 - [Pomodoro Clock](https://github.com/cusxio/fcc-projects/tree/master/basic%20-%20pomodoro%20clock)
+    - Live Preview: [http://codepen.io/cusx/full/QjzYMa/](http://codepen.io/cusx/full/QjzYMa/)
 
 ##### Usage: 
 ```bash
@@ -30,6 +31,7 @@ npm run compile
 ```
 
 - [Random Quote Machine](https://github.com/cusxio/fcc-projects/tree/master/basic%20-%20random%20quote%20machine)
+    - Live Preview: [http://codepen.io/cusx/full/mJXZje/](http://codepen.io/cusx/full/mJXZje/)
 
 ##### Usage: 
 ```bash
@@ -40,6 +42,7 @@ gulp
 Intermediate
 -----------------
 - [Camper News](https://github.com/cusxio/fcc-projects/tree/master/intermediate%20-%20camper%20news)
+    - Live Preview: [http://codepen.io/cusx/full/wamJJP/](http://codepen.io/cusx/full/wamJJP/)
 
 ##### Usage: 
 ```bash
@@ -47,6 +50,7 @@ Intermediate
 gulp
 ```
 - [Local Weather](https://github.com/cusxio/fcc-projects/tree/master/intermediate%20-%20local%20weather)
+    - Live Preview: [http://codepen.io/cusx/full/wajyZO/](http://codepen.io/cusx/full/wajyZO/)
 
 ##### Usage: 
 ```bash
@@ -55,6 +59,7 @@ gulp
 ```
 
 - [Wikipedia Viewer](https://github.com/cusxio/fcc-projects/tree/master/intermediate%20-%20wikipedia%20viewer)
+    - Live Preview: [http://codepen.io/cusx/full/VvEdqM/](http://codepen.io/cusx/full/VvEdqM/)
 
 ##### Usage: 
 ```bash
