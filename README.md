@@ -48,7 +48,7 @@ gulp
 ```
 - [Local Weather](https://github.com/cusxio/fcc-projects/tree/master/intermediate%20-%20local%20weather)
 
-Usage: 
+##### Usage: 
 ```bash
 # Step 1 - Build Development and Serve @ http://localhost:3000
 gulp
