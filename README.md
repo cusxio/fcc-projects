@@ -2,13 +2,12 @@ FreeCodeCamp Projects
 =======================
 A List of FreeCodeCamp Projects that *I have completed* + Source Codes !
 
-### NOTE:
-Some projects are built with [ReactJs](https://github.com/facebook/react), some [AngularJs](https://github.com/angular/angular.js), and some vanilla JavaScript. These projects acts as an opportunity for me to learn various tools and of course - **JavaScript**
+#### NOTE:
+Some projects are built with [ReactJs](https://github.com/facebook/react), some [AngularJs](https://github.com/angular/angular.js), and some vanilla JavaScript. These projects acts as an opportunity for me to learn various tools and of course - **JavaScript** !
 
-Table of Contents
+Projects
 -----------------
-1. [Basic](#asics)
-    1. [Random Quote Machine](#random quote machine)
+1. [Basic](#basics)
 1. [Intermediate](#intermediate)
 
 
