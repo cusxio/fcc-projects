@@ -5,10 +5,16 @@ A List of FreeCodeCamp Projects that *I have completed* + Source Codes !
 ### NOTE:
 Some projects are built with [ReactJs](https://github.com/facebook/react), some [AngularJs](https://github.com/angular/angular.js), and some vanilla JavaScript. These projects acts as an opportunity for me to learn various tools and of course - **JavaScript**
 
+Table of Contents
+-----------------
+1. [Basic](#asics)
+    1. [Random Quote Machine](#random quote machine)
+1. [Intermediate](#intermediate)
+
 
 Basic
 -----------------
-- ### [Pomodoro Clock](https://github.com/cusxio/fcc-projects/tree/master/basic%20-%20pomodoro%20clock)
+- [Pomodoro Clock](https://github.com/cusxio/fcc-projects/tree/master/basic%20-%20pomodoro%20clock)
 
 ##### Usage: 
 ```bash
@@ -24,7 +30,7 @@ npm run dev
 npm run compile
 ```
 
-- ### [Ramdom Quote Machine](https://github.com/cusxio/fcc-projects/tree/master/basic%20-%20random%20quote%20machine)
+- [Random Quote Machine](https://github.com/cusxio/fcc-projects/tree/master/basic%20-%20random%20quote%20machine)
 
 ##### Usage: 
 ```bash
@@ -34,14 +40,14 @@ gulp
 
 Intermediate
 -----------------
-- ### [Camper News](https://github.com/cusxio/fcc-projects/tree/master/intermediate%20-%20camper%20news)
+- [Camper News](https://github.com/cusxio/fcc-projects/tree/master/intermediate%20-%20camper%20news)
 
 ##### Usage: 
 ```bash
 # Step 1 - Build Development and Serve @ http://localhost:3000
 gulp
 ```
-- ### [Local Weather](https://github.com/cusxio/fcc-projects/tree/master/intermediate%20-%20local%20weather)
+- [Local Weather](https://github.com/cusxio/fcc-projects/tree/master/intermediate%20-%20local%20weather)
 
 Usage: 
 ```bash
@@ -49,7 +55,7 @@ Usage:
 gulp
 ```
 
-- ### [Wikipedia Viewer](https://github.com/cusxio/fcc-projects/tree/master/intermediate%20-%20wikipedia%20viewer)
+- [Wikipedia Viewer](https://github.com/cusxio/fcc-projects/tree/master/intermediate%20-%20wikipedia%20viewer)
 
 ##### Usage: 
 ```bash
