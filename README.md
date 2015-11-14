@@ -7,7 +7,7 @@ Some projects are built with [ReactJs](https://github.com/facebook/react), some 
 
 Projects
 -----------------
-1. [Basic](#basics)
+1. [Basic](#basic)
 1. [Intermediate](#intermediate)
 
 
