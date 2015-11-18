@@ -1,0 +1,9 @@
+export const CLEAR = 'CLEAR';
+export const BACK = 'BACK';
+export const ADD = '+';
+export const MINUS = '-';
+export const MULTI = '*';
+export const DIVIDE = '/';
+export const EQUAL = '=';
+export const NUMBER = 'NUMBER';
+export const DOT = '.';

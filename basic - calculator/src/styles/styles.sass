@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700)
+
+body
+    margin: 0
+    padding: 0
+    font-family: 'Lato', sans-serif
+    font-weight: 31+200
+    background:#F7F7F7
+
+.row
+  display: flex;
+  flex-direction: row
+
+.column
+    display: flex
+    flex-direction: column
+
+.s1
+    flex: 1
+.s2
+    flex: 2
+.s3
+    flex: 3
+.s4
+    flex: 4
+.s5
+    flex: 5
+.s6
+    flex: 6
+.s7
+    flex: 7
+.s8
+    flex: 8
+.s9
+    flex: 9
+.s10
+    flex: 10
+.s11
+    flex: 11
+.s12
+    flex: 12
+
+#app
+    position: absolute
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    width: 400px
+    height: 600px
+    margin: auto
+
+.calculator-container
+    width: 100%
+    height: 100%
+    display: flex
+    flex-direction: column
+    box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.10)
+    .result-panel
+        font-weight: 700
+        display: flex
+        padding-top: 40px
+        flex: 2
+        flex-direction: column
+        background-color: #e3e7e9
+        text-align: right
+        padding: 0px 30px
+        line-height: 80px
+        pointer-events: none
+        .last-result
+            flex: 1
+            color: #969ba3
+            font-size: 30px
+            align-items: flex-end
+            display: flex
+            justify-content: flex-end
+            overflow: auto
+            max-width: 100%
+        .current-result
+            flex: 1
+            color: #46494d
+            font-size: 40px
+            overflow: auto
+            max-width: 100%
+    .button-panel
+        flex: 5
+        .button
+            cursor: pointer
+            position: relative
+            margin: 0
+            padding: 0
+            box-shadow: inset 1px 1px 0 0 #e3e7e9
+            border: none
+            background-color: #fff
+            font-size: 30px
+            line-height: 0px
+            text-align: center
+            color: #979ca4
+            overflow: hidden
+            transition: all 0.2s ease
+            &:hover
+                background-color: #F5F5F5
+                font-size: 40px
+            &:before
+                content: ""
+                position: absolute
+                left: 0
+                right: 0
+                top: 0
+                bottom: 0
+                margin: auto
+                width: 40px
+                height: 40px
+                border-radius: 50%
+                background: #aaa
+                opacity: 0
+            &.button-equal 
+                color: #fff
+                background-color: #fa722e
+                &:hover
+                    background-color: #FF4520
+            &.button-clear
+                color: #fff
+                background-color: #fa722e
+                &:hover
+                    background-color: #FF4520
+            &:focus
+                outline: none
