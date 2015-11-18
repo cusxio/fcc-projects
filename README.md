@@ -39,6 +39,24 @@ npm run compile
 gulp
 ```
 
+- [JavaScript Calculator](https://github.com/cusxio/fcc-projects/tree/master/basic%20-%20calculator)
+    - Live Preview: [http://codepen.io/cusx/full/RWdajw/](http://codepen.io/cusx/full/RWdajw/)
+
+##### Usage: 
+```bash
+# Step 1
+npm install
+
+# Step 2 - 
+npm run dev
+
+# or 
+
+# Step 3 - Build Production
+npm run compile
+```
+
+
 Intermediate
 -----------------
 - [Camper News](https://github.com/cusxio/fcc-projects/tree/master/intermediate%20-%20camper%20news)
