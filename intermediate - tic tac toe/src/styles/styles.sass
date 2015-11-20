@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700)
+
+body
+    margin: 0
+    padding: 0
+    font-family: 'Lato', sans-serif
+    background: whitesmoke
+
+.row
+  display: flex;
+  flex-direction: row
+
+.column
+    display: flex
+    flex-direction: column
+
+.s1
+    flex: 1
+.s2
+    flex: 2
+.s3
+    flex: 3
+.s4
+    flex: 4
+.s5
+    flex: 5
+.s6
+    flex: 6
+.s7
+    flex: 7
+.s8
+    flex: 8
+.s9
+    flex: 9
+.s10
+    flex: 10
+.s11
+    flex: 11
+.s12
+    flex: 12
+
+#app
+    position: absolute
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    width: 500px
+    height: 500px
+    margin: auto
+
+.container
+    width: 100%
+    height: 100%
+    display: flex
+    flex-direction: column
+    box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.10)
+
+.board
+    flex: 3
+    .button
+        cursor: pointer
+        position: relative
+        margin: 0
+        padding: 0
+        box-shadow: inset 1px 1px 0 0 #e3e7e9
+        border: none
+        background-color: #fff
+        font-size: 70px
+        line-height: 0px
+        text-align: center
+        color: #979ca4
+        overflow: hidden
+        transition: all 0.2s ease
+        &:hover
+            background-color: #F5F5F5
+        &:before
+            content: ""
+            position: absolute
+            left: 0
+            right: 0
+            top: 0
+            bottom: 0
+            margin: auto
+            width: 40px
+            height: 40px
+            border-radius: 50%
+            background: #aaa
+            opacity: 0
+        &:focus
+            outline: none
+
+.results
+    position: fixed
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+    opacity: 0.9
+
+
+
+.results-container
+    margin: 0 auto;
+    width: 300px;
+    height: 100vh;
+
+
+.c1
+    width: 100%;
+    height: 100%;
+    display: table;
+
+.c2
+    display: table-cell
+    vertical-align: middle
+    text-align: center
+
+.control
+    height: 400px
+    width: 300px
+    background: whitesmoke
+    position: relative
+    box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.1)
+    .top
+        font-size: 30px
+        padding: 10px
+        letter-spacing: 2px
+        color: #fff
+        background: #FF3E41
+        position: absolute
+        box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.1)
+        top: 0
+        left: 0
+        right: 0
+    .button
+        border: none
+        background-color: #FF3E41
+        position: absolute
+        bottom: 20px
+        left: 70px
+        right: 70px
+        font-size: 20px
+        letter-spacing: 2px
+        padding: 10px
+        color: #fff
+        &:focus
+            outline: none
+        &:hover
+            box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.1)
+            cursor: pointer
+    h1
+        color: #FF3E41
+        letter-spacing: 3px
+
+
+
+
+.blur-in
+    animation: blur 2s forwards
+
+.blur-out
+    animation: blur-out 2s forwards
+
+@keyframes blur
+    0%
+        filter: blur(0px)
+
+    100%
+        filter: blur(4px)
+
+@keyframes blur-out
+    0%
+        filter: blur(4px)
+
+    100%
+        filter: blur(0px)

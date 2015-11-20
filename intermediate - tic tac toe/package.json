@@ -1,5 +1,5 @@
 {
-  "name": "zipline-calulator",
+  "name": "zipline-ttt",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,29 +12,32 @@
   "license": "MIT",
   "devDependencies": {
     "autoprefixer-loader": "^3.1.0",
-    "babel-core": "^6.1.4",
+    "babel-core": "^6.1.21",
     "babel-eslint": "^4.1.5",
-    "babel-loader": "^6.1.0",
-    "babel-preset-es2015": "^6.1.4",
-    "babel-preset-react": "^6.1.4",
-    "babel-preset-stage-0": "^6.1.2",
-    "css-loader": "^0.22.0",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babel-preset-stage-0": "^6.1.18",
+    "css-loader": "^0.23.0",
     "eslint": "^1.9.0",
-    "eslint-plugin-react": "^3.8.0",
+    "eslint-plugin-react": "^3.9.0",
     "extract-text-webpack-plugin": "^0.9.1",
     "html-webpack-plugin": "^1.6.2",
-    "node-sass": "^3.4.1",
+    "node-sass": "^3.4.2",
     "react-hot-loader": "^1.3.0",
     "sass-loader": "^3.1.1",
     "style-loader": "^0.13.0",
-    "webpack": "^1.12.4",
+    "webpack": "^1.12.6",
     "webpack-dev-server": "^1.12.1"
   },
   "dependencies": {
-    "babel-polyfill": "^6.1.4",
+    "axios": "^0.7.0",
+    "babel-polyfill": "^6.1.19",
+    "classnames": "^2.2.0",
     "react": "^0.14.2",
     "react-dom": "^0.14.2",
     "react-redux": "^4.0.0",
-    "redux": "^3.0.4"
+    "redux": "^3.0.4",
+    "redux-thunk": "^1.0.0"
   }
 }
