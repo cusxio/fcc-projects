@@ -110,5 +110,21 @@ npm run dev
 npm run compile
 ```
 
+- [Twitch Viewer](https://github.com/cusxio/fcc-projects/tree/master/intermediate%20-%20twitch)
+    - Live Preview: [http://codepen.io/cusx/full/yYWoWy/](http://codepen.io/cusx/full/yYWoWy/)
+
+##### Usage: 
+```bash
+# Step 1
+npm install
+
+# Step 2 - 
+npm run dev
+
+# or 
+
+# Step 3 - Build Production
+npm run compile
+```
 
 ### The End ~
