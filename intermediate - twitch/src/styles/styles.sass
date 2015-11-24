@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700)
+
+*
+    box-sizing: border-box
+
+body
+    font-family: 'Open Sans', sans-serif
+    background: whitesmoke
+    overflow: hidden
+
+
+.tabs
+    margin: 50px auto
+    max-width: 600px
+    box-shadow: 0px 0px 49px 4px rgba(0,0,0,0.75)
+
+.tabs__menu
+    list-style-type: none
+    margin: 0
+    padding: 0
+    font-size: 0
+    width: 100%
+
+.tabs__menu--item
+    width: 200px
+    display: inline-block
+    text-align: center
+    background-color: #fff
+    border-radius: 1px
+    vertical-align: bottom
+
+.tabs__menu--item a
+    color: #6441a5
+    text-transform: uppercase
+    display: block
+    font-size: 20px
+    padding: 20px 0
+    font-weight: 400
+    text-decoration: none
+    letter-spacing: 4px
+
+.tabs__menu--item.active
+    background-color: #6441a5
+    box-shadow: 0px 5px 23px -5px rgba(0,0,0,0.75)
+    transform: scaleY(1.2) translateY(-5px)
+
+.tabs__menu--item.active a 
+    color: #fff
+    font-weight: 600
+    transform: scaleY(0.8)
+
+
+/////////////////////////
+//      CONTENT       //
+////////////////////////
+.tabs__content
+    background: #6441a5
+
+.tabs__content--item
+    color: #fff
+
+.tabs__content--item ul
+    margin: 0
+    padding: 20px
+    a
+        text-decoration: none
+        color: #fff
+        &:visited
+            color: #fff
+    li
+        position: relative
+        list-style: none
+        padding: 10px
+        .avatar
+            height: 55px
+            width: 55px
+            border-radius: 50%
+            vertical-align: middle
+            box-shadow: 0px 5px 23px -5px rgba(0,0,0,0.75)
+        .name
+            position: relative
+            vertical-align: middle
+            margin-left: 20px
+            font-size: 20px
+            letter-spacing: 1px
+            .status
+                position: relative
+                display: inline-block
+                margin-left: 10px
+                font-size: 10px
+                opacity: 0.9
+                text-overflow: ellipsis
+                width: 40%
+                white-space: nowrap
+                overflow: hidden
+        .icon
+            position: absolute
+            line-height: 55px
+            right: 10px
+            font-size: 20px
+        .ion-checkmark-round
+            color: #8FD7D6
+        .ion-close-round
+            color: #F47564
+
+
+/////////////////////////
+//      SPINNER       //
+////////////////////////
+@keyframes rotate-infinite
+    0%
+        transform: rotate(0deg)
+    100%
+        transform: rotate(360deg)
+
+.spinner-container
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 100%
+    height: 100%
+
+.spinner
+    animation: rotate-infinite 0.8s linear infinite
+    border: 5px solid #6441a5
+    border-right-color: transparent
+    border-radius: 50%
+    height: 50px
+    width: 50px
+    align-self: center
+    margin-top: 100px
+
+/////////////////////////
+//    TEXT INPUT      //
+////////////////////////
+input
+    width: 100%
+    background: transparent
+    border: none
+    padding: 5px
+    padding-left: 20px
+    padding-right: 20px
+    &:focus
+        outline: none

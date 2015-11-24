@@ -1,0 +1,9 @@
+export const SET_ACTIVE_TAB = 'SET_ACTIVE_TAB';
+
+export const TWITCH_ONLINE = 'TWITCH_ONLINE';
+export const TWITCH_OFFLINE = 'TWITCH_OFFLINE';
+
+export const STATUS_PENDING = 'STATUS_PENDING';
+export const STATUS_DONE = 'STATUS_DONE';
+
+export const SEARCH_PENDING = 'SEARCH_PENDING';
